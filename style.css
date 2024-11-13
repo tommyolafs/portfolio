@@ -1,0 +1,56 @@
+.media {
+    width: 30px;
+    height: 30px;
+}
+
+header {
+    background-color: lightcoral;
+    width: 24rem;
+    position: absolute;
+    transform: translate(2rem, 2rem);
+    padding: 1rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: yellow;
+    width: 32rem;
+    position: absolute;
+    transform: translate(32rem, 2rem);
+    padding: 1rem;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.project-container {
+    background-color: #30302e;
+    color: white;
+    width: 340px;
+    height: 202px;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.project-container h3 {
+    padding: 0;
+    margin: 0;
+    transform: translate(20px, 4px);
+}
+
+.project-showcase-image {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 1rem;
+    padding: 0;
+    margin: 0;
+    transform: translate(20px, 15px);
+}
