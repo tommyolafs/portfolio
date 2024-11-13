@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
 .media {
     width: 30px;
     height: 30px;
 }
 
+body {
+    background-color: #0d0e0f;
+    color: white;
+    font-family: "Kode Mono", monospace;
+}
+
 header {
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
     width: 24rem;
     position: absolute;
     transform: translate(2rem, 2rem);
@@ -12,12 +20,13 @@ header {
 }
 
 h1 {
+    font-size: xx-large;
     padding: 0;
     margin: 0;
 }
 
 main {
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 32rem;
     position: absolute;
     transform: translate(32rem, 2rem);
@@ -30,16 +39,22 @@ h2 {
 }
 
 .project-container {
-    background-color: #30302e;
+    background-color: #1d2024;
     color: white;
     width: 340px;
     height: 202px;
     border-radius: 2rem;
     padding: 0.5rem;
     margin: 1rem 0;
+    transition: transform 0.15s ease-out;
+}
+
+.project-container:hover {
+    transform: translateY(-8px);
 }
 
 .project-container h3 {
+    font-weight: 500;
     padding: 0;
     margin: 0;
     transform: translate(20px, 4px);
@@ -47,6 +62,7 @@ h2 {
 
 .project-showcase-image {
     position: relative;
+    opacity: 60%;
     width: 300px;
     height: 150px;
     border-radius: 1rem;
